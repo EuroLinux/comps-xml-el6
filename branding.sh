@@ -15,5 +15,6 @@ sed -Ei 's@codeready-builder@crb@g' *.xml
 sed -Ei 's@CodeReady@CRB@g' *.xml
 sed -Ei 's@codeready@crb@g' *.xml
 sed -Ei '/DOCTYPE comps PUBLIC/d' *.xml
-sed -Ei '/subscription-manager/d' baseos-*.xml
-sed -Ei '/insights-client/d' appstream-*.xml
+sed -Ei '/subscription-manager/d' *.xml
+sed -Ei '/insights-client/d' *.xml
+sed -Ei '/Red_Hat_Enterprise_Linux-Release/d' *.xml
